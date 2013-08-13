@@ -1,0 +1,22 @@
+{
+    "name": "ephp/cal",
+    "type": "symfony-bundle",
+    "description": "Bundle con funzioni per calendari",
+    "keywords": ["debug", "array", "calendar", "symfony-2.1"],
+    "homepage": "https://github.com/ephp/cal",
+    "license": "MIT",
+    "authors": [
+            {
+                "name": "Ephraim Pepe",
+                "email": "ephraim.pepe@gmail.com"
+            }
+    ],
+    "require": {
+            "php": ">=5.4"
+    },
+    "autoload": {
+            "psr-0": { "Ephp\\CalendarBundle": "" }
+    },
+    "target-dir": "Ephp/CalendarBundle",
+    "minimum-stability": "dev"
+}
